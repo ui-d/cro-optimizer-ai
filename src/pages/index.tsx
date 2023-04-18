@@ -22,7 +22,7 @@ export default function HomePage() {
     <Layout>
       <Seo />
       <main>
-        <div className='mt-[10%] w-full min-w-full'>
+        <div className='mt-[10%] w-full min-w-full px-10 xl:px-0'>
           <SearchInput
             type='url'
             label='Start here:'
