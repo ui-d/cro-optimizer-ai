@@ -1,7 +1,8 @@
 import * as React from 'react';
 
-import Layout from '@/components/layout/Layout';
+import { Layout } from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
+import { SearchInput } from '@/components/forms/SearchInput';
 
 /**
  * SVGR Support
@@ -19,11 +20,15 @@ import Vercel from '~/svg/Vercel.svg';
 export default function HomePage() {
   return (
     <Layout>
-      {/* <Seo templateTitle='Home' /> */}
       <Seo />
-
       <main>
-
+        <div className='mt-[10%] w-full min-w-full'>
+          <SearchInput
+            type='url'
+            label='Start here:'
+            placeholder='https://example.com'
+          />
+        </div>
       </main>
     </Layout>
   );
