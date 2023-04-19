@@ -18,7 +18,7 @@ export const BottomNavigation = () => {
             />
           </svg>
         </button>
-        <button className='text-primary active'>
+        <button className='text-primary'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             className='h-5 w-5'
