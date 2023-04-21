@@ -13,16 +13,16 @@ export default function HomePage() {
       <main>
         <Container>
           <div className='grid grid-cols-3 justify-center justify-items-center gap-10 py-32'>
-            <Card icon={<BsSpeedometer2 size='100px' />} />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+            {/*<Card icon={<BsSpeedometer2 size='100px' />} />*/}
+            {/*<Card />*/}
+            {/*<Card />*/}
+            {/*<Card />*/}
+            {/*<Card />*/}
+            {/*<Card />*/}
+            {/*<Card />*/}
+            {/*<Card />*/}
+            {/*<Card />*/}
+            {/*<Card />*/}
           </div>
         </Container>
       </main>
